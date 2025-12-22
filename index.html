@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillRoute</title>
+    <link rel="icon" href="image/graduation-cap.png" type="icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo"><i class='fas fa-graduation-cap' style='font-size:40px;color:orange'></i>SkillRoute</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#roadmaps">Roadmaps</a>
+                <a href="#why">Why us</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="menu">
+                ☰
+            </div>
+        </div>
+    </nav>
+    <div class="hero" id="home">
+        <div class="hero-container">
+            <div class="carousel">
+                <div class="slides">
+
+                    <div class="slide active">
+                        <img src="image/image1.jpg" alt="image1">
+                        <div class="hero-text">
+                            <h1>Navigate Your Career</h1>
+                            <p>Clear roadmaps for your future success</p>
+                            <a href="#roadmaps" class="hero-btn">Get Started</a>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="image/image2.jpg" alt="image2">
+                        <div class="hero-text">
+                            <h1>Choose the Right Path</h1>
+                            <p>Step-by-step career guidance</p>
+                            <a href="#roadmaps" class="hero-btn">Get Started</a>
+
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="image/image4.jpg" alt="image3">
+                        <div class="hero-text">
+                            <h1>Become Job Ready</h1>
+                            <p>Skills that industry demands</p>
+                            <a href="#roadmaps" class="hero-btn">Get Started</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <button class="control prev">&#10094;</button>
+                <button class="control next">&#10095;</button>
+            </div>
+
+        </div>
+    </div>
+
+    <section>
+        <h2>How it works</h2>
+        <div class="steps" id="steps">
+            <div class="step">
+                <i class="fa-solid fa-user-graduate"></i>
+                <h3>Choose Career</h3>
+                <p>Select your desired carrer path.</p>
+            </div>
+            <div class="step">
+                <i class="fa-solid fa-route"></i>
+                <h3>Follow Roadmap</h3>
+                <p>Step-by-step guidance.</p>
+            </div>
+            <div class="step">
+                <i class="fa-solid fa-briefcase"></i>
+                <h3>Become Job-Ready</h3>
+                <p>Learn industry-relevant skills.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="roadmaps">
+        <h2>IT Career Roadmaps</h2>
+
+        <div class="roadmaps">
+
+            <!-- Frontend Developer -->
+            <div class="roadmap">
+                <h3>Frontend Developer</h3>
+                <ul>
+                    <li>HTML5, CSS3, JavaScript (ES6+)</li>
+                    <li>Responsive Design & Accessibility</li>
+                    <li>React.js / Vue.js / Angular</li>
+                    <li>State Management & APIs</li>
+                    <li>Git & GitHub</li>
+                    <li>Deployment (Netlify, Vercel)</li>
+                </ul>
+            </div>
+
+            <!-- Backend Developer -->
+            <div class="roadmap">
+                <h3>Backend Developer</h3>
+                <ul>
+                    <li>Programming (Node.js / Python / Java / PHP)</li>
+                    <li>Frameworks (Express, Django, Spring, Laravel)</li>
+                    <li>Databases (MySQL, PostgreSQL, MongoDB)</li>
+                    <li>REST APIs & Authentication</li>
+                    <li>Security & Validation</li>
+                    <li>Server Deployment & Docker</li>
+                </ul>
+            </div>
+
+            <!-- Full Stack Developer -->
+            <div class="roadmap">
+                <h3>Full Stack Developer</h3>
+                <ul>
+                    <li>Frontend: HTML, CSS, JavaScript, React</li>
+                    <li>Backend: Node.js / Express</li>
+                    <li>Database Integration</li>
+                    <li>Authentication & Authorization</li>
+                    <li>Git, CI/CD</li>
+                    <li>Cloud Deployment</li>
+                </ul>
+            </div>
+
+            <!-- Data Analyst -->
+            <div class="roadmap">
+                <h3>Data Analyst</h3>
+                <ul>
+                    <li>Excel & SQL</li>
+                    <li>Python (Pandas, NumPy)</li>
+                    <li>Data Cleaning & EDA</li>
+                    <li>Data Visualization</li>
+                    <li>Power BI / Tableau</li>
+                    <li>Business Insights & Reporting</li>
+                </ul>
+            </div>
+
+            <!-- Data Scientist -->
+            <div class="roadmap">
+                <h3>Data Scientist</h3>
+                <ul>
+                    <li>Statistics & Probability</li>
+                    <li>Python / R</li>
+                    <li>Machine Learning Algorithms</li>
+                    <li>Feature Engineering</li>
+                    <li>NLP & Computer Vision</li>
+                    <li>Model Deployment</li>
+                </ul>
+            </div>
+
+            <!-- AI / ML Engineer -->
+            <div class="roadmap">
+                <h3>AI / ML Engineer</h3>
+                <ul>
+                    <li>Python & Linear Algebra</li>
+                    <li>Machine Learning Concepts</li>
+                    <li>Deep Learning</li>
+                    <li>TensorFlow / PyTorch</li>
+                    <li>NLP / Computer Vision</li>
+                    <li>Model APIs & Cloud</li>
+                </ul>
+            </div>
+
+            <!-- DevOps Engineer -->
+            <div class="roadmap">
+                <h3>DevOps Engineer</h3>
+                <ul>
+                    <li>Linux & Networking</li>
+                    <li>Git & Version Control</li>
+                    <li>CI/CD Pipelines</li>
+                    <li>Docker & Kubernetes</li>
+                    <li>AWS / Azure / GCP</li>
+                    <li>Monitoring & Automation</li>
+                </ul>
+            </div>
+
+            <!-- Cybersecurity -->
+            <div class="roadmap">
+                <h3>Cybersecurity Engineer</h3>
+                <ul>
+                    <li>Networking & Linux Basics</li>
+                    <li>Web & System Security</li>
+                    <li>Ethical Hacking</li>
+                    <li>Security Tools (Wireshark, Metasploit)</li>
+                    <li>Incident Response</li>
+                    <li>Certifications (CEH, Security+)</li>
+                </ul>
+            </div>
+
+            <!-- UI/UX Designer -->
+            <div class="roadmap">
+                <h3>UI / UX Designer</h3>
+                <ul>
+                    <li>Design Principles</li>
+                    <li>Figma / Adobe XD</li>
+                    <li>User Research</li>
+                    <li>Wireframing & Prototyping</li>
+                    <li>Usability Testing</li>
+                    <li>Portfolio & Case Studies</li>
+                </ul>
+            </div>
+
+            <!-- Cloud Engineer -->
+            <div class="roadmap">
+                <h3>Cloud Engineer</h3>
+                <ul>
+                    <li>Linux & Networking</li>
+                    <li>AWS / Azure / GCP</li>
+                    <li>Cloud Services (EC2, S3, IAM)</li>
+                    <li>Databases & Storage</li>
+                    <li>Infrastructure as Code</li>
+                    <li>Cloud Security</li>
+                </ul>
+            </div>
+            <!-- Mobile App Developer -->
+            <div class="roadmap">
+                <h3>Mobile App Developer</h3>
+                <ul>
+                    <li>Programming Basics: Java / Kotlin (Android) or Swift (iOS)</li>
+                    <li>Mobile UI Design & UX Principles</li>
+                    <li>Flutter / React Native for cross-platform apps</li>
+                    <li>APIs & Backend Integration</li>
+                    <li>App Testing & Debugging</li>
+                    <li>Deployment: Google Play Store / Apple App Store</li>
+                </ul>
+            </div>
+            <!-- Database Administrator -->
+            <div class="roadmap">
+                <h3>Database Administrator (DBA)</h3>
+                <ul>
+                    <li>Database Fundamentals: SQL & NoSQL</li>
+                    <li>Database Design & Normalization</li>
+                    <li>Backup & Recovery Strategies</li>
+                    <li>Performance Tuning & Query Optimization</li>
+                    <li>Security & User Management</li>
+                    <li>Cloud Database Management (AWS RDS, Azure SQL)</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="why">
+        <h2>Why SkillRoute?</h2>
+        <div class="why">
+            <div>&#x1F4CA;Clear Roadmaps</div>
+            <div>&#x1F4BB;Student Friendly</div>
+            <div>&#x1F4BC; Industry Focused</div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h3>SkillRoute</h3>
+        <p>Guiding careers with clarity and confidence.</p>
+        <p>&#xa9; 2025 SkillRoute</p>
+    </footer>
+
+    <script>
+        const slides = document.querySelectorAll(".slide");
+        const prevBtn = document.querySelector(".control.prev");
+        const nextBtn = document.querySelector(".control.next");
+        const menu = document.querySelector(".menu");
+        const navlinks = document.querySelector(".nav-links");
+
+        let currentIndex = 0;
+        let autoSlideInterval;
+
+        menu.addEventListener("click", () => {
+            navlinks.classList.toggle("active");
+        });
+
+        document.querySelectorAll(".nav-links a").forEach(link => {
+            link.addEventListener("click", () => {
+                navlinks.classList.remove("active");
+            });
+        });
+
+        document.addEventListener("click", (e) => {
+            if (!navlinks.contains(e.target) && !menu.contains(e.target)) {
+                navlinks.classList.remove("active");
+            }
+        });
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.toggle("active", i === index);
+            });
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % slides.length;
+            showSlide(currentIndex);
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+            showSlide(currentIndex);
+        }
+
+        function startAutoSlide() {
+            autoSlideInterval = setInterval(nextSlide, 4000); // 4 seconds
+        }
+
+        function stopAutoSlide() {
+            clearInterval(autoSlideInterval);
+        }
+
+        // Button events
+        nextBtn.addEventListener("click", () => {
+            nextSlide();
+            stopAutoSlide();
+            startAutoSlide();
+        });
+
+        prevBtn.addEventListener("click", () => {
+            prevSlide();
+            stopAutoSlide();
+            startAutoSlide();
+        });
+
+        // Pause on hover
+        document.querySelector(".carousel").addEventListener("mouseenter", stopAutoSlide);
+        document.querySelector(".carousel").addEventListener("mouseleave", startAutoSlide);
+
+        // Start autoplay
+        startAutoSlide();
+    </script>
+
+</body>
+
+</html>
