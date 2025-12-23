@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!-- navbar section start -->
     <nav>
         <div class="nav-container">
             <div class="logo"><i class='fas fa-graduation-cap' style='font-size:40px;color:orange'></i>SkillRoute</div>
@@ -21,10 +22,13 @@
                 <a href="#contact">Contact</a>
             </div>
             <div class="menu">
-                ☰
+                &#9776;
             </div>
         </div>
     </nav>
+    <!-- navbar section stop -->
+
+    <!-- hero-carousel section start -->
     <div class="hero" id="home">
         <div class="hero-container">
             <div class="carousel">
@@ -68,7 +72,9 @@
 
         </div>
     </div>
+    <!-- hero-carousel section stop -->
 
+    <!-- steps section start -->
     <section>
         <h2>How it works</h2>
         <div class="steps" id="steps">
@@ -89,7 +95,9 @@
             </div>
         </div>
     </section>
+    <!-- steps section stop -->
 
+    <!-- roadmaps section start -->
     <section id="roadmaps">
         <h2>IT Career Roadmaps</h2>
 
@@ -251,8 +259,9 @@
 
         </div>
     </section>
+    <!-- roadmaps section stop -->
 
-
+    <!-- why section start -->
     <section id="why">
         <h2>Why SkillRoute?</h2>
         <div class="why">
@@ -261,13 +270,17 @@
             <div>&#x1F4BC; Industry Focused</div>
         </div>
     </section>
+    <!-- why section stop -->
 
+    <!-- footer section start -->
     <footer id="contact">
         <h3>SkillRoute</h3>
         <p>Guiding careers with clarity and confidence.</p>
         <p>&#xa9; 2025 SkillRoute</p>
     </footer>
+    <!-- footer section stop -->
 
+    <!-- javascript -->
     <script>
         const slides = document.querySelectorAll(".slide");
         const prevBtn = document.querySelector(".control.prev");
@@ -277,6 +290,8 @@
 
         let currentIndex = 0;
         let autoSlideInterval;
+
+        // menubar in mobile  device
 
         menu.addEventListener("click", () => {
             navlinks.classList.toggle("active");
@@ -293,6 +308,9 @@
                 navlinks.classList.remove("active");
             }
         });
+
+        // image carousel 
+
         function showSlide(index) {
             slides.forEach((slide, i) => {
                 slide.classList.toggle("active", i === index);
